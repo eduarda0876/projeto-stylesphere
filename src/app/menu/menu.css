@@ -54,13 +54,16 @@
 .icons i {
     cursor: pointer;
 }
+.icons img{
+    transition: 0.3s;
+}
 
 .menu {
     display: flex;
     justify-content: center;
     gap: 40px;
     padding: 10px;
-    background-color: #f8f8f8;
+    background-color: #ffffff;
 }
 
 .menu a {
@@ -75,3 +78,5 @@
     color: #000000;
     font-weight: bold;
 }
+
+
